@@ -10,48 +10,40 @@ namespace BitIR {
     
     export enum enIRButton {
 
-        //% blockId="Power" block="Power"
-        Power = 0x00,
         //% blockId="Up" block="Up"
         Up = 0x18,
-        //% blockId="Light" block="Light"
-        Light = 0x02,
+        //% blockId="Light" block="Star"
+        Light = 0x68,
         //% blockId="Left" block="Left"
-        Left = 0x04,
-        //% blockId="Beep" block="Beep"
-        Beep = 0x05,
+        Left = 0x10,
+        //% blockId="Beep" block="Pound"
+        Beep = 0xB0,
         //% blockId="Right" block="Right"
-        Right = 0x06,
-        //% blockId="SpinLeft" block="SpinLeft"
-        SpinLeft = 0x08,
+        Right = 0x5a,
+        //% blockId="SpinLeft" block="Ok"
+        SpinLeft = 0x38,
         //% blockId="Down" block="Down"
-        Down = 0x09,
-        //% blockId="SpinRight" block="SpinRight"
-        SpinRight = 0x0a,
-        //% blockId="Add" block="Add"
-        Add = 0x0c,
+        Down = 0x4a,
         //% blockId="Zero" block="Zero"
-        Zero = 0x0d,
-        //% blockId="Minus" block="Minus"
-        Minus = 0x0e,
+        Zero = 0x98,
         //% blockId="One" block="One"
-        One = 0x10,
+        One = 0xa2,
         //% blockId="Two" block="Two"
-        Two = 0x11,
+        Two = 0x62,
         //% blockId="Three" block="Three"
-        Three = 0x12,
+        Three = 0xe2,
         //% blockId="Four" block="Four"
-        Four = 0x14,
+        Four = 0x22,
         //% blockId="Five" block="Five"
-        Five = 0x15,
+        Five = 0x02,
         //% blockId="Six" block="Six"
-        Six = 0x16,
+        Six = 0xc2,
         //% blockId="Seven" block="Seven"
-        Seven = 0x18,
+        Seven = 0xe0,
         //% blockId="Eight" block="Eight"
-        Eight = 0x19,
+        Eight = 0xa8,
         //% blockId="Nine" block="Nine"
-        Nine = 0x1a,
+        Nine = 0x90,
 
     }
 
