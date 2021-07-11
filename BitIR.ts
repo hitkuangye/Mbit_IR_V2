@@ -83,6 +83,7 @@ namespace BitIR {
 
     function valuotokeyConversion():number{
         let irdata:number;
+        let datai:number;
         switch(irCode()){
             case 0xff00:irdata = 0;break;
             case 0xfe01:irdata = 1;break;
@@ -108,7 +109,8 @@ namespace BitIR {
             default:
              irdata = -1;
         }
-        return irdata;
+        datai = irCode();
+        return datai;
     }
 
     basic.forever(() => {
