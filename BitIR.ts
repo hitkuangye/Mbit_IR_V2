@@ -13,7 +13,7 @@ namespace BitIR {
         //% blockId="Power" block="Power"
         Power = 0x00,
         //% blockId="Up" block="Up"
-        Up = 0x01,
+        Up = 0x18,
         //% blockId="Light" block="Light"
         Light = 0x02,
         //% blockId="Left" block="Left"
