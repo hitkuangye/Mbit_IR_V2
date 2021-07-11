@@ -1,7 +1,7 @@
 {
-    "name": "YB_IR",
-    "version": "2.0.3",
-    "description": "Extension for YahBoom YB_IR V2.0.3",
+    "name": "Mbit_IR",
+    "version": "1.1.0",
+    "description": "Extension for Mbit_IR V1.1.0",
     "license": "MIT",
     "dependencies": {
         "core": "*"
